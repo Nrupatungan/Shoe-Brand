@@ -69,6 +69,11 @@ nav ul li:hover {
     background: none;
   }
 }
+@media only screen and (max-width: 899px) {
+  nav ul li:active {
+    background: #f0e8e8;
+  }
+}
 @media only screen and (min-width: 900px) {
   nav ul {
     display: -webkit-box;
@@ -219,7 +224,7 @@ header svg {
   }
   .feature.left .content {
     text-align: left;
-    width: 25em;
+    width: 40em;
     justify-self: left;
   }
 }
