@@ -1,0 +1,66 @@
+@import "variables";
+
+body {
+  font-family: $Montserrat;
+  @media #{$mq-620-up} {
+    margin: 1.5em 5em;
+  }
+}
+.logo {
+  font-size: 1.4em;
+  font-family: $Ubuntu;
+  font-weight: 700;
+  color: $White;
+  text-decoration: none;
+  @media #{$mq-900-up} {
+    color: $Black;
+    text-decoration: none;
+    span {
+      color: $Red;
+    }
+  }
+}
+ul {
+  a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    @media #{$mq-900-up} {
+      color: $White;
+      font-size: 0.8rem;
+      padding: 0.5em 1.5em;
+      &:hover {
+        text-decoration: underline;
+        background: none;
+      }
+    }
+  }
+}
+
+.hero {
+  h1 {
+    font-size: 3rem;
+    line-height: 3.3rem;
+    margin-top: 2em;
+  }
+  p {
+    font-size: 1.4rem;
+    @media #{$mq-900-up} {
+      margin-bottom: 3em;
+    }
+  }
+  @media #{$mq-900-up} {
+    color: $Black;
+    height: auto;
+    width: 40%;
+    margin-bottom: 8em;
+  }
+}
+.more-info {
+  .title {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  .desc {
+    line-height: 1.5rem;
+  }
+}
