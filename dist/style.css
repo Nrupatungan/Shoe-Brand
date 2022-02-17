@@ -62,7 +62,12 @@ nav ul {
   margin-top: 8em;
 }
 nav ul li:hover {
-  background-color: #f0e8e8;
+  background: #f0e8e8;
+}
+@media only screen and (min-width: 900px) {
+  nav ul li:hover {
+    background: none;
+  }
 }
 @media only screen and (min-width: 900px) {
   nav ul {
